@@ -1,0 +1,101 @@
+.LableEdit {
+    position: fixed;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 2;
+    box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e4226, 0px 0px 1px #091e424f);
+}
+
+.LableEdit .title {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.LableEdit .closebtn {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    z-index: 3;
+    border: none;
+    background-color: white;
+    position: absolute;
+    left: 255px;
+    top: 8px;
+}
+
+.LableEdit .closebtn:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.LableEdit .closebtn .icon {
+    width: 15px;
+    height: 15px;
+    top: -1px;
+}
+
+.LableEdit .colorlist{
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.LableEdit .colorlist .checkbox{
+    position: relative;
+    margin-left: 15px;
+}
+
+.LableEdit .colorbtn {
+    width: 200px;
+    height: 32px;
+    position: relative;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.LableEdit .colorbtn:hover{
+    opacity: 1;
+}
+
+.LableEdit .colorbtn .text{
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.LableEdit .colorlist .pencilbtn{
+    position: relative;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+.LableEdit .colorlist .pencilbtn:hover{
+    background-color: rgb(237, 237, 237);
+}
+.LableEdit .colorlist .pencilbtn .picon{
+    position: relative;
+    margin-top: -3px;
+}
+.LableEdit .addlablebtn{
+    width: 260px;
+    height: 40px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.LableEdit .addlablebtn:hover{
+    background-color: rgb(220, 220, 220);
+}

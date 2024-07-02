@@ -1,0 +1,85 @@
+.AddLableEdit {
+    position: fixed;
+    width: 300px;
+    min-height: 400px;
+    max-height: 440px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 3;
+    top: 269px;
+    overflow: hidden;
+    overflow-y: auto;
+    box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e4226, 0px 0px 1px #091e424f);
+}
+
+.AddLableEdit .closebtn {
+    position: relative;
+    top: -44px;
+    left: 255px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.AddLableEdit .closebtn:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.AddLableEdit .closebtn .closeicon {
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
+}
+.AddLableEdit .box1{
+    margin-top: -30px;
+}
+.AddLableEdit .box1 .text1{
+    position: relative;
+    margin-left: 20px;
+    top: -10px;
+}
+
+.AddLableEdit .box1 .inputtitle{
+    width: 260px;
+    height: 30px;
+    position: relative;
+    margin-left: 20px;
+}
+.AddLableEdit .colorlist{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 55px 55px 55px 55px 55px;
+    width: 300px;
+    height: 200px;
+}
+.AddLableEdit .colorlist .color{
+    margin-top: 5px;
+    display: inline-block;
+    width: 50px;
+    height:30px;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.AddLableEdit .colorlist .color:hover{
+    opacity: 1;
+}
+.AddLableEdit .addbtn{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    margin-top: 45px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.AddLableEdit .addbtn .add{
+    margin-left: -3px;
+    margin-top: 5px;
+}
+.AddLableEdit .addbtn:hover{
+    background-color: rgb(200, 200, 200);
+}

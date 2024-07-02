@@ -1,0 +1,313 @@
+.cardinfo {
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  min-width: 700px;
+  width: fit-content;
+  min-height: 700px;
+  height: fit-content;
+  color: #1d3153;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cardinfo .closebtn {
+  position: relative;
+  top: -12px;
+  left: 725px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+}
+
+.cardinfo .closebtn .closeicon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -2px;
+}
+
+.cardinfo .info1 {
+  position: relative;
+  width: 500px;
+  left: -50px;
+  flex-direction: column;
+}
+
+.cardinfo .info1 .editable {
+  width: 465px;
+}
+
+.cardinfo_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+
+.cardinfo_box_2 {
+  width: auto;
+}
+
+.cardinfo_box_2 .manyboxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.manyboxes .avatars {
+  display: flex;
+  flex-direction: row;
+}
+
+.manyboxes .cardinfo_box_1 {
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.cardinfo_box_1 .labels {
+  display: flex;
+  justify-content: center;
+}
+
+.manyboxes .cardinfo_box_2 {
+  min-width: 100px;
+}
+
+.cardinfo_box .icon {
+  position: relative;
+  top: -7.5px;
+}
+
+.cardinfo_box_2 .duedate {
+  margin-top: 10px;
+}
+
+.cardinfo_box_title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cardinfo_box_title p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+  top: -8px;
+}
+
+.cardinfo_box_title .tasktitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.cardinfo_box_title svg {
+  height: 18px;
+  width: 18px;
+}
+
+.listtext {
+  position: relative;
+  left: 30px;
+  top: -30px;
+  font-size: 10px;
+  margin-bottom: -30px;
+}
+
+.cardinfo_box .editable {
+  position: relative;
+  top: -10px;
+  left: 30px;
+  margin-top: 0;
+}
+
+.labels .lablelist {
+  position: relative;
+  margin-right: 6px;
+  margin-top: 4px;
+  border-radius: 3px;
+  min-width: 40px;
+  min-height: 30px;
+}
+
+
+.cardinfo_box .date-editable {
+  position: relative;
+  top: -26px;
+  left: 26px;
+}
+
+.cardinfo_box_small .duedate {
+  position: relative;
+  margin-top: 4px;
+}
+
+.cardinfo_box_progress-bar {
+  width: 465px;
+  border-radius: 30px;
+  height: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-left: 30px;
+}
+
+.cardinfo_box_progress {
+  height: 100%;
+  border-radius: 30px;
+  background-color: skyblue;
+  width: 0;
+  transition: 200ms;
+}
+
+.cardinfo_box_task_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.cardinfo_box .taskeditable {
+  position: relative;
+  top: 15px;
+}
+
+.cardinfo_box_task_checkbox {
+  display: flex;
+  gap: 10px;
+}
+
+.cardinfo_box_task_checkbox input,
+.cardinfo_box_task_checkbox svg {
+  height: 18px;
+  width: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cardinfo_box_task_checkbox p {
+  flex: 1;
+  line-height: 18px;
+}
+
+.cardinfo_box_task_checkbox .completed {
+  text-decoration-line: line-through;
+}
+
+
+.cardinfo_box input[type="date"] {
+  width: fit-content;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.cardinfo_box_comment_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  margin-left: 25px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.cardinfo_box_comment_list .avatar {
+  width: 42px;
+}
+
+.cardinfo_box_comment_list .avatar_info {
+  width: 35px;
+  height: 35px;
+}
+
+.cardinfo_box_comment_list .comment_small_box {
+  display: flex;
+  flex-direction: row;
+  width: 465px;
+}
+
+.cardinfo_box_comment_list .comment_small_box_1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.cardinfo_box_comment_list .comment_title {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+.cardinfo_box_comment_list .comment_title p {
+  margin-right: 10px;
+}
+
+.cardinfo_box_comment_list .comment_title .delete_btn {
+  position: absolute;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.cardinfo_box_comment_list .content_box {
+  margin-top: 6px;
+  width: 425px;
+  min-height: 30px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e4226, 0px 0px 1px #091e424f);
+}
+
+.cardinfo_box_comment_list .content_box p {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.cardinfo .info2 {
+  position: relative;
+  top: 50px;
+  left: -20px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.cardinfo .info2 .otherbox {
+  position: relative;
+  margin-top: 20px;
+}
+
+.cardinfo .btn {
+  background-color: rgb(231, 233, 233);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 35px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.cardinfo .btn:hover {
+  background-color: #ccc;
+}
+
+.cardinfo .btn .icon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: -1px;
+  margin-right: 6px;
+}

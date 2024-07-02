@@ -1,0 +1,101 @@
+.cover{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.cardedit{
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    border-color: rgb(184, 187, 187);
+    border-radius: 5px;
+    z-index: 4;
+}
+.cardedit .text {
+    position: absolute;
+    left: 0;
+}
+.cardedit .text .planning{
+    margin: 5px;
+    overflow-wrap: break-word;
+    resize: none;
+    border-radius: 10px;
+}
+/* 隐藏滚动条仍可移动 */
+.cardedit .text .planning::-webkit-scrollbar{
+    display: none;
+}
+.cardedit .text .save{
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:#0c66e4;
+    color: #c7d1db;
+}
+.cardedit .text .save:hover{
+    background-color: #1a76f7;
+}
+.cardedit .text .cancelbtn{
+    position: absolute;
+    left: 130px;
+    top: 160px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:#4e4e4e;
+    color: #c7d1db;
+}
+.cardedit .text .cancelbtn:hover{
+    background-color: #5d5d5d;
+}
+.cardedit .btnlist{
+    position: relative;
+    left: 240px;
+    top: 16px;
+    width: 200px;
+    transform: translate(-10px,-10px);
+    overflow: hidden;
+    animation: move 85ms ease-in ;
+    animation-iteration-count: 1;
+}
+/* 淡入关键帧具体表现 */
+@keyframes move{
+    0%{
+        left: 220px;
+    }
+    100%{
+        left: 240px;
+    }
+}
+.cardedit .btnlist .btn{
+    position: relative;
+    width: 140px;
+    height: 40px;
+    text-align: left;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #c7d1db;
+    background: #0009;
+    margin: 0 0 4px 10px;
+    border: none;
+    z-index: 3;
+    
+}
+.cardedit .btnlist .btn:hover{
+    background-color: rgb(89, 87, 87);
+}
+.cardedit .btnlist .icon{
+    position: relative;
+    top: -1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,182 @@
+.dashboard {
+    position:absolute;
+    display: flex;
+    background-color: white;
+    min-height: calc(100vh - 5rem);
+    width: 100%;
+    height: 100%;
+    
+    position:absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: var(--ds-text,#172b4d);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.dashMain {
+    width: 80%;
+    order: 2;
+    padding: 1.5rem 0 0 1.5rem;
+    
+    justify-content: flex-start;
+    height: 706px;
+    width: 1520px;
+    left: 18;
+    top: 0;
+    position: absolute;
+}
+header {
+    margin-bottom: 2rem;
+}
+header     h1 {
+    font-size: 1.5rem;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+section h2 {
+    font-size: 1.25rem;
+}
+
+.createBoardMainBtn {
+    padding: 0.5rem;
+    background-color: #026AA7;
+    border: 1px solid #026AA7;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.dashboardBoards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dashboardBoards div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 0 1rem 1rem 0;
+    width: 285px;
+    height: 100px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+.dashboardBoards div:hover {
+    opacity: 0.8;
+}
+.dashboardBoards     button {
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+.dashboardBoards .boardLink {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+.createBoardBtn {
+    font-size: 0.95rem;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 20%;
+    height: 102px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ebf2f3e6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .dashMain {
+        width: 75%;
+    }
+    .sidebar {
+        width: 25%;
+    }
+    .dashboardBoards {
+        div {
+            width: 35%;
+        }
+    }
+    .createBoardBtn {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .dashboard {
+        flex-direction: column;
+    }
+    .dashMain {
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        width: 100%;
+        height: 100%;
+        order: 2;
+
+        ul {
+            div {
+                display: none;
+            }
+            
+            .sideLink {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dashboard {
+        padding: 3rem 1rem 1.5rem;
+    }
+    .dashboardBoards {
+        div {
+            width: 45%;
+        }
+    }
+    .createBoardBtn {
+        width: 50%;
+    }
+    .sidebar {
+        ul {
+            padding-left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .dashboardBoards div{
+            width: 100%;
+            margin-right: 0;
+            .boardLink {
+                width: 100%;
+            }
+    }
+    .createBoardBtn {
+        width: 100%;
+        padding: 0;
+    }
+}

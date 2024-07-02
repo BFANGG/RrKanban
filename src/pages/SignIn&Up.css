@@ -1,0 +1,143 @@
+.userLogPage {
+    padding: 3rem 0 2rem;
+}
+
+.logoName {
+    width: 50%;
+    margin: 1rem auto;
+    font-size: 2rem;
+    text-align: center;
+    color: #026AA7;
+}
+.logoName     p {
+    display: inline;
+    font-weight: 700;
+    color: black;
+}
+.signupbox{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to top,#eaede3,#f2f2d8);
+}
+.signupbox .loginimg{
+    position: absolute;
+    left: 730px;
+    top: 200px;
+    width: 500px;
+    height: 400px;
+    border-radius: 0 20px 20px 0;
+    opacity: 0.7;
+}
+.signupbox .formContainer{
+    position: absolute;
+    left: 230px;
+    top: 200px;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px 0 0 20px;
+    opacity: 0.7;
+    background: rgb(0, 0, 0 ,0.1);
+}
+.formContainer .title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: #5E6C84;
+    position: relative;
+    padding-top: 30px;
+}
+.formContainer     input {
+    display: block;
+    box-sizing: border-box;
+    margin: -2px 0 1rem 128px;
+    padding: 7px;
+    height: 40px;
+    border: 2px solid #DFE1E6;
+    border-radius: 5px;
+    background-color: #FAFBFC;
+    width: 250px;
+}
+.formContainer  button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #026AA7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.signupbox .signup{
+    padding-top: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        font-size: 0.80rem;
+        text-decoration: none;
+        color: #5d8ed7;
+        display: inline;
+        text-align: center;
+        margin: 1rem 0.35rem;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 1rem auto;
+    padding: 0 2rem;
+    border-radius: 6px;
+    background-color: #F8D7DA;
+    color: #84204B;
+}
+.message     button {
+    background-color: transparent;
+    border: none;
+    color: #84204B;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.signup .text1{
+    font-size: 10px;
+    position: absolute;
+    left: 165px;
+    top: 345px;
+}
+.signup .link1{
+    top: 345px;
+    left: 280px;
+    position: absolute;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .formContainer {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .formContainer {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .formContainer {
+        width: 75%;
+        box-shadow: none;
+    }
+}

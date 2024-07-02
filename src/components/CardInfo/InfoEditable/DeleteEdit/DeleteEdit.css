@@ -1,0 +1,52 @@
+.DeleteEdit{
+    width: 300px;
+    height: 150px;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e4226, 0px 0px 1px #091e424f);
+}
+.DeleteEdit .title{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+}
+.DeleteEdit .closebtn{
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    z-index: 3;
+    border: none;
+    background-color: white;
+    position: absolute;
+    left: 255px;
+    top: 8px;
+}
+.DeleteEdit .closebtn:hover{
+    background-color: rgb(218, 218, 218);
+}
+.DeleteEdit .closebtn .icon{
+    width: 15px;
+    height: 15px;
+    top: -1px;
+}
+.DeleteEdit .text{
+    position: relative;
+    top: 18px;
+    padding-left: 10px;
+    font-weight: normal;
+}
+.DeleteEdit .confirmbtn{
+    width: 260px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 27px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.DeleteEdit .confirmbtn:hover{
+    background-color: rgb(220, 220, 220);
+}

@@ -1,0 +1,86 @@
+.ChangeAvatar {
+    width: 360px;
+    height: 380px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e4226, 0px 0px 1px #091e424f);
+}
+
+.ChangeAvatar .title {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ChangeAvatar .upload {
+    width: 100px;
+    height: 50px;
+}
+
+.ant-upload .ant-upload-select {
+    display: block;
+    width: 220px;
+    height: 220px;
+}
+
+.ChangeAvatar .ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select {
+    width: 220px;
+    height: 220px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.ChangeAvatar :where(.css-dev-only-do-not-override-i0102m).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item{
+    width: 220px;
+    height: 220px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.ChangeAvatar .ant-upload{
+    font-size: 20px;
+    color: #5c687b;
+}
+.ChangeAvatar .ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item{
+    padding: 0;
+    border: dotted;
+    border-color: #0052cc;
+}
+.ChangeAvatar .ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item{
+    padding: 10px;
+}
+.ChangeAvatar .ant-tooltip-content{
+    opacity: 0;
+}
+.ChangeAvatar .cancelbtn{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    top: 310px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.ChangeAvatar .cancelbtn:hover{
+    background-color: rgb(220, 220, 220);
+}
+.ChangeAvatar .uploadbtn{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 210px;
+    top: 310px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0052cc;
+    color: white;
+}
+.ChangeAvatar .uploadbtn:hover{
+    background-color: #237cdb;
+}

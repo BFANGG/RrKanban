@@ -1,0 +1,64 @@
+.memberedit{
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e4226, 0px 0px 1px #091e424f);
+}
+.memberedit .title{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+}
+.memberedit .memberclosebtn{
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    z-index: 3;
+    border: none;
+    background-color: white;
+    position: absolute;
+    left: 255px;
+    top: 8px;
+}
+.memberedit .memberclosebtn:hover{
+    background-color: rgb(218, 218, 218);
+}
+.memberedit .memberclosebtn .icon{
+    width: 15px;
+    height: 15px;
+    top: -1px;
+}
+.memberedit .list{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    background-color: white;
+}
+.memberedit .list .listbtn{
+    position: relative;
+    margin-left: 18px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.listbtn .content{
+    width: fit-content;
+}
+.listbtn .check{
+    width: fit-content;
+    right: 5px;
+    position: absolute;
+}
+.memberedit .list .listbtn:hover{
+    background-color: rgb(216, 216, 216);
+}
